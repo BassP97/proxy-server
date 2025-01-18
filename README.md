@@ -11,3 +11,5 @@ The proxy supports both http and https, and keeps track of some metrics, includi
 ```
 curl localhost:3000/metrics
 ```
+
+The server also reports these metrics right before it shuts down.
