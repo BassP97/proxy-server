@@ -1,0 +1,15 @@
+[package]
+name = "proxyserver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.28", features = ["full"] }
+hyper = { version = "0.14", features = ["full"] }
+hyper-tls = "0.5"
+base64 = "0.21"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+bytes = "1.4"
+futures-util = "0.3"
+url = "2.3"
